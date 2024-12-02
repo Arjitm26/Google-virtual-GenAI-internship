@@ -1,0 +1,44 @@
+{
+    "name": "Arjit Mishra",
+    "contact": {
+      "email": "arjitmishra72@gmail.com",
+      "phone": "+91 7441183675",
+      "location": "Jabalpur, MP"
+    },
+    "education": [
+      {
+        "degree": "B.Tech in Artificial Intelligence and Machine Learning",
+        "institute": "Gyan Ganga Institute of Technology and Sciences",
+        "year": "2020-2024"
+      },
+      {
+        "degree": "Higher Secondary Certificate",
+        "institute": "St. Gabriel Senior Secondary School",
+        "year": "2018-2020"
+      }
+    ],
+    "skills": ["Python", "C++", "Dart", "SQL", "TensorFlow", "Scikit-learn"],
+    "experience": [
+      {
+        "role": "Flutter Developer Intern",
+        "company": "Phaico",
+        "duration": "March 2022 - August 2022",
+        "details": [
+          "Developed features like geofencing and video chat for a bus management app.",
+          "Built a WooCommerce retail app with API integration and payment gateway.",
+          "Integrated video chat in a consultation app using Agora SDK."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Classification of Disaster Tweets",
+        "details": "Used NLP techniques to classify tweets with 82% accuracy."
+      },
+      {
+        "name": "Disease Prediction",
+        "details": "Built ML models to predict diseases based on symptoms with 79% accuracy."
+      }
+    ]
+  }
+  
