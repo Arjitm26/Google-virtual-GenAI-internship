@@ -33,7 +33,7 @@ def pdfreader(file):
     return text   
 
 with open('cv.json','r') as file:
-    resume = json.load(file) 
+    resume = json.load(file)
 
 def input(user_query):
     context = f"""
