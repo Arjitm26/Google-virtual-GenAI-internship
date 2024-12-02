@@ -136,5 +136,48 @@ def main():
         except Exception as e:
             st.error(f"Error during analysis: {e}")
 
+    if st.button("Hey, want to know how we do it !"):
+        st.write("""
+                This web application helps job seekers optimize their resumes by analyzing how well they match specific job descriptions using advanced AI technology.
+
+                ## How It Works
+
+                ### Step 1: Job Description Input
+                - Paste the complete job description you're applying for
+                - Provides context for resume evaluation
+
+                ### Step 2: Resume Upload
+                - Upload your PDF resume
+                - Ensures compatibility with professional document formats
+
+                ### Step 3: AI-Powered Analysis
+                - Advanced AI (Gemini Pro) analyzes your resume
+                - Compares resume content with job description
+
+                ## Key Features
+
+                1. Match Score Visualization
+                - Interactive circular gauge
+                - Color-coded percentage match
+                - Green: High match (75-100%)
+                - Yellow: Moderate match (50-75%)
+                - Red: Low match (0-50%)
+
+                2. Detailed Insights
+                - Percentage match calculation
+                - Missing keywords identification
+                - Profile summary and recommendations
+
+                ## Benefits
+                - Improve resume targeting
+                - Understand application strengths/weaknesses
+                - Increase interview chances
+                - Data-driven resume optimization
+
+                ## Technical Background
+                - Uses Google's Generative AI
+                - Secure API-based analysis
+                - Instant, comprehensive resume evaluation """)
+        
 if __name__ == "__main__":
     main()
